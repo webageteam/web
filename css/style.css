@@ -129,7 +129,7 @@ a:focus, img:focus, button:focus, .btn:focus {
 /*===== Header ===*/
 header[role="header"] {
   padding-top: 80px;
-  padding-bottom: 39px; 
+  padding-bottom: 39px;
   box-sizing: border-box;
 }
 
@@ -284,7 +284,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,
   display: block;
   font-size: 80px;
   color: #fb5353;
-  padding-bottom: 15px; 
+  padding-bottom: 15px;
   line-height: 63px;
 }
 
@@ -305,20 +305,20 @@ border-radius:10px;
 display: block;
 border: none;
 outline: none;
-width: 400px;
+width: 200px;
 line-height: 60px;
 text-transform: uppercase;
-font-size: 21px;
+font-size: 15px;
 color: #FFF;
 font-weight: 800;
 letter-spacing: 2px;
-background-color: #e84d49;
+background-color: #2D3047;
 margin: 41px auto;
 margin-bottom: 0;
 
 }
 .button:hover {
-  background-color: yellow;
+  background-color: #e84d49;
 }
 
 /*===== footer ===*/
@@ -897,9 +897,9 @@ article[role="pge-title-content"].contact-header p a:hover {
 		color: #404040;
 		font-weight: 800;
 		font-size: 30px;
-	}	
-	#header-nav-at768 > div:hover > a { 
-		color: #fb5353; 
+	}
+	#header-nav-at768 > div:hover > a {
+		color: #fb5353;
 		text-decoration: none;
 	}
 	#header-nav-at768 > div.nav-active > a {
