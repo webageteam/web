@@ -273,7 +273,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] header, main[ro
   padding-top: 83px
 }
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h2, main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 , header h2{
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2, main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 , header h2,{
   font-size: 46px;
   line-height: 53px;
   color: #404040;
@@ -319,6 +319,7 @@ margin-bottom: 0;
 }
 .button:hover {
   background-color: #e84d49;
+  text-decoration: none;
 }
 
 /*===== footer ===*/
