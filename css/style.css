@@ -870,7 +870,10 @@ article[role="pge-title-content"].contact-header p a:hover {
   background-color: #ff5c5c
 }
 
-
+/* Social Media marketing */
+.smm-bold{
+  font-weight: bold;
+}
 @media (max-width: 768px) { /*--- Mobile View ---*/
 	#header-nav-at768{
 		display: none;
