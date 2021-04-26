@@ -111,7 +111,8 @@ a:focus, img:focus, button:focus, .btn:focus {
 /*===== Header ===*/
 header[role="header"] {
   padding-top: 80px;
-  padding-bottom: 39px
+  padding-bottom: 39px;
+  box-sizing: border-box;
 }
 
 header[role="header"] h1 {
@@ -254,7 +255,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] header, main[ro
   padding-top: 83px
 }
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h2, main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 , header h2{
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2, main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 , header h2,{
   font-size: 46px;
   line-height: 53px;
   color: #404040;
@@ -265,13 +266,42 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,
   display: block;
   font-size: 80px;
   color: #fb5353;
-  padding-bottom: 15px
+  padding-bottom: 15px;
+  line-height: 63px;
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] p, main[role="main-inner-wrapper"] article[role="pge-title-content"] p {
   font-size: 20px;
   line-height: 30px;
   color: #454545
+}
+/*===== get a free quote ===*/
+
+.button-wrapper {
+  display: block;
+  text-align: center;
+}
+
+.button{
+border-radius:10px;
+display: block;
+border: none;
+outline: none;
+width: 200px;
+line-height: 60px;
+text-transform: uppercase;
+font-size: 15px;
+color: #FFF;
+font-weight: 800;
+letter-spacing: 2px;
+background-color: #2D3047;
+margin: 41px auto;
+margin-bottom: 0;
+
+}
+.button:hover {
+  background-color: #e84d49;
+  text-decoration: none;
 }
 
 /*===== footer ===*/
@@ -436,7 +466,7 @@ main[role="main-inner-wrapper"] .vision-content {
 }
 
 main[role="main-inner-wrapper"] .vision-content p {
-  /* background: rgb(1, 1, 1) ; /* Fallback color 
+  /* background: rgb(1, 1, 1) ; /* Fallback color
   background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
   z-index: 1; */
   color: #fff; /* Grey text */
@@ -820,4 +850,52 @@ article[role="pge-title-content"].contact-header p a:hover {
 
 .commentys-form input[type="button"]:hover {
   background-color: #ff5c5c
+<<<<<<< HEAD
 }
+=======
+}
+
+/* Social Media marketing */
+.smm-bold{
+  font-weight: bold;
+}
+@media (max-width: 768px) { /*--- Mobile View ---*/
+	#header-nav-at768{
+		display: none;
+	}
+	nav[role="header-nav"] {
+		display: block;
+	}
+}
+@media (min-width: 768px) { /*--- Lap View ---*/
+	#header-nav-1 {
+		display: flex;
+		width: 100%;
+		padding: 0 75px;
+		transform-origin: 50% 0% ;
+	}
+	#header-nav-at768{
+		display: flex;
+		align-items: center;
+		align-self: flex-start;
+		flex-grow: 0;
+		margin-left: auto;
+	}
+	#header-nav-at768 > div{ margin-left: 20px; }
+	#header-nav-at768 > div > a {
+		color: #404040;
+		font-weight: 800;
+		font-size: 30px;
+	}
+	#header-nav-at768 > div:hover > a {
+		color: #fb5353;
+		text-decoration: none;
+	}
+	#header-nav-at768 > div.nav-active > a {
+		color: #fb5353;
+	}
+	nav[role="header-nav"] {
+		display: none;
+	}
+}
+>>>>>>> d967fbbed2987e4849e2f0835f039faf86710d51
