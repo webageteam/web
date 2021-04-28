@@ -587,6 +587,8 @@ article[role="pge-title-content"].contact-header p a:hover {
   padding-bottom: 24px
 }
 
+
+}
 .contat-from-wrapper input[type="text"]:focus, .contat-from-wrapper input[type="email"]:focus, .contat-from-wrapper textarea:focus {
   border-bottom-color: #9f9e9e
 }
