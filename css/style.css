@@ -20,6 +20,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -900,4 +901,6 @@ article[role="pge-title-content"].contact-header p a:hover {
 		display: none;
 	}
 }
->>>>>>> d967fbbed2987e4849e2f0835f039faf86710d51
+
+
+/* >>>>>>> d967fbbed2987e4849e2f0835f039faf86710d51 */
